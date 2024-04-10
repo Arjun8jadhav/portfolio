@@ -1,10 +1,14 @@
-import styles from './navbar.css';
+import  './navbar.css';
+import { assets } from '../../asset/asset';
+import { useState } from 'react';
 const Navbar = () => {
+    const [menuopen,setMenuOpen]=useState(false);
     return (
-        <nav className={styles.navbar}>
-            <a className={styles.title} href='/'>Portfolio</a>
-            <div className={styles.menu}>
-                <ul className={styles.memu.item}>
+        <nav className="navbar">
+            <a className="title" href='/'>Portfolio</a>
+            <div className="menu">
+                <img className='menuBtn' src={ menuopen?(assets.menu_icon):(assets.cross)} alt='menu' onClick={()=>setMenuOpen(!menuopen)}/>
+                <ul className={`${'menu-item'} ${!menuopen && 'menu-open'}`} onClick={()=>setMenuOpen(!menuopen)}>
                     <li>
                         <a href='#about'>About</a>
                     </li>
