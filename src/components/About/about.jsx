@@ -5,7 +5,7 @@ export const About = () => {
     <section className={Style.container} id='about'>
         <h2 className={Style.title}>About</h2>
         <div className={Style.content}>
-            <img src={assets.seating_icon} className={Style.aboutimg} alt='me seating with laptop' />
+            <img src={assets.about} className={Style.aboutimg} alt='me seating with laptop' />
         
         <ul className={Style.aboutitems}>
             <li className={Style.aboutitem}>
