@@ -1,0 +1,86 @@
+@import '../../vars.css';
+.sec{
+    margin-top: 76px;
+    color: var(--color-text);
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.head{
+   font-size: 35px;
+   font-weight: 700;
+   letter-spacing: 1.75;
+   text-transform: uppercase;
+}
+.project{
+    margin-top: 37px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    width: 100%;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background: linear-gradient(180deg,#566cbc 0%,#132a53);
+    box-shadow: 0 16px 14px 0 #04152d;
+    padding: 18px 20px;
+    max-width: 300px;
+}
+.container img{
+   width: 200px;
+   
+}
+.title{
+    font-size: 25px;
+    font-weight: 600;
+    font-family: var(--font-roboto);
+}
+.description{
+    margin-top: 6px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+}
+.skills{
+    
+    margin-top: 14px;
+    list-style: none;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+.skill{
+    font-size: 17px;
+    font-weight: 400;
+    border-radius: 100px;
+    background-color: var(--color-dark);
+    padding: 4px 10px;
+    cursor: pointer;
+}
+.links{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+    width: 100%;
+    
+
+    
+
+}
+.link{
+    text-decoration: none;
+    color: var(--color-text);
+    font-size: 22px;
+    font-weight: 600;
+    border-radius: 100px;
+    background: var(--color-primary);
+    padding: 4px 22px;
+    
+
+}

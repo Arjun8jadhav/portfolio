@@ -68,13 +68,13 @@ export const Experience = () => {
                     <li className={Style.account}>
                         <img src={Skill.cf_icon} />
                         <p>3 STAR CodeChef Rating(1650+ max)</p>
-                        <a href='https://leetcode.com/arjun_jadhav/'>View</a>
+                        <a href='https://www.codechef.com/users/arjun_jadhav'>View</a>
                         
                     </li>
                     <li className={Style.account} >
                         <img src={Skill.cn_icon} />
                         <p>Top 2% Problem solver </p>
-                        <a href='https://leetcode.com/arjun_jadhav/'>View</a>
+                        <a href='https://www.naukri.com/code360/profile/arjun_jadhav'>View</a>
                     </li>
 
                 </ul>
