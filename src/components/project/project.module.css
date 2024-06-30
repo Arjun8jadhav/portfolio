@@ -1,0 +1,88 @@
+@import "../../vars.css";
+.container{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+.projects{
+    
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    align-items: flex-start;
+    
+    
+    
+}
+.title{
+    color: var(--color-text);
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 1.75px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.project{
+    background-color: var(--color-secondary);
+    padding: 20px;
+    border-radius: 20px;
+    color: var(--color-text);
+    max-width: 250px;
+    min-width: 250px;
+   
+}
+.project img{
+    width: 200px;
+    height: 200px;
+    margin-left: 10%;
+    margin-right: 10%;
+    object-fit: cover;
+    border-radius: 20px;
+    margin: 4px;
+}
+.lan{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    height: max-content;
+
+    
+}
+.lan p{
+    padding: 2px;
+    background-color: rgb(81, 102, 129);
+    border-radius: 5px;
+}
+.links{
+    margin-top: 6px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.links a{
+    color: var(--font-roboto);
+    text-decoration: none;
+    padding: 8px 16px;
+    background-color: rgb(80, 140, 196);
+    border-radius: 10px;
+    
+}
+.links a:hover{
+     transition: 0.5s all ease;
+     background-color: rgb(143, 204, 184);
+     color: black;
+}
+@media screen and (max-width: 650px){
+    .projects{
+        justify-content: center;
+    }
+}
+@media  (min-width: 670px ) and (max-width: 986px){
+    .projects{
+        gap: 10px;
+        margin-left: 10%;
+    }
+    
+}
