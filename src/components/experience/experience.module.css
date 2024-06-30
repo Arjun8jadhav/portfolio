@@ -55,7 +55,7 @@ img{
     color: var(--color-text);
     display: flex;
     flex-direction: column;
-    gap: 4px;
+    gap: 10px;
     flex: 4;
     
 }

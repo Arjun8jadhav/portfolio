@@ -29,7 +29,7 @@ export const projectdata=[
     ,
     {
         id: 3,
-        Title : "Real-Estate App",
+        Title : "AI tools",
         Language: [
             "ReactJS","NodeJS","Clerk","Gemini","huggingface"
         ],
