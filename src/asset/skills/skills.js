@@ -8,6 +8,8 @@ import postgres_icon from './postgress.png';
 import leetcode_icon from './LeetCode_logo_black.png'
 import cf_icon from './cf-Photoroom.png';
 import cn_icon from './cn.png';
+import postman from './postman.png';
+import git from './git_logo.png';
  export const Skill={
       cpp_icon,
       css_icon,
@@ -19,4 +21,6 @@ import cn_icon from './cn.png';
       leetcode_icon,
       cn_icon,
       cf_icon,
+      postman,
+      git
  }

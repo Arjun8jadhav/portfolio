@@ -35,29 +35,14 @@ export const Experience = () => {
                         <p>Postgres</p>
                     </div>
                     <div className={Style.skills}>
-                        <img className={Style.imgcontainer} src={Skill.cpp_icon} alt='css' />
+                        <img className={Style.imgcontainer} src={Skill.postman} alt='css' />
                         <p>CPP</p>
                     </div>
                     <div className={Style.skills}>
-                        <img className={Style.imgcontainer} src={Skill.html_icon} alt='css' />
+                        <img className={Style.imgcontainer} src={Skill.git} alt='css' />
                         <p>HTML</p>
                     </div>
-                    <div className={Style.skills}>
-                        <img className={Style.imgcontainer} src={Skill.css_icon} alt='css' />
-                        <p>CSS</p>
-                    </div>
-                    <div className={Style.skills}>
-                        <img className={Style.imgcontainer} src={Skill.node_icon} alt='css' />
-                        <p>NodeJS</p>
-                    </div>
-                    <div className={Style.skills}>
-                        <img className={Style.imgcontainer} src={Skill.react_icon} alt='css' />
-                        <p>React</p>
-                    </div>
-                    <div className={Style.skills}>
-                        <img className={Style.imgcontainer} src={Skill.postgres_icon} alt='css' />
-                        <p>Postgres</p>
-                    </div>
+                   
                 </div>
                 <ul className={Style.profiles}>
                     <li className={Style.account}>
@@ -75,6 +60,11 @@ export const Experience = () => {
                         <img src={Skill.cn_icon} />
                         <p>Top 2% Problem solver </p>
                         <a href='https://www.naukri.com/code360/profile/arjun_jadhav'>View</a>
+                    </li>
+                    <li className={Style.account} >
+                        <img src={Skill.git} />
+                        <p>Projects & repositaries </p>
+                        <a href='https://github.com/Arjun8jadhav'>View</a>
                     </li>
 
                 </ul>
