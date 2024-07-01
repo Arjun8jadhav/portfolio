@@ -36,11 +36,11 @@ export const Experience = () => {
                     </div>
                     <div className={Style.skills}>
                         <img className={Style.imgcontainer} src={Skill.postman} alt='css' />
-                        <p>CPP</p>
+                        <p>Postman</p>
                     </div>
                     <div className={Style.skills}>
                         <img className={Style.imgcontainer} src={Skill.git} alt='css' />
-                        <p>HTML</p>
+                        <p>Git</p>
                     </div>
                    
                 </div>
