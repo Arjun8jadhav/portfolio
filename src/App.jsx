@@ -4,6 +4,7 @@ import Navbar from './components/Navbar/navbar.jsx'
 import Hero from './components/hero/hero.jsx'
 import { Experience } from './components/experience/experience.jsx'
 import { Project } from './components/project/project.jsx'
+import { Email } from './components/email/email.jsx'
 
 function App() {
  
@@ -15,6 +16,7 @@ function App() {
        <About/>
        <Experience/>
        <Project />
+       <Email/>
        
       
        

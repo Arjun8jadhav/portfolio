@@ -11,6 +11,9 @@
 }
 .title{
     width: 120px;
+    font-size: 26px;
+    color: aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .menu{
     display: flex;
@@ -23,9 +26,10 @@
 
 }
 .menu-item a{
-    font-size: 22px;
+    font-size: 26px;
     color: var(--color-text);
     text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .menuBtn{
     display: none;

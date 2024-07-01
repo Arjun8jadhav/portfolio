@@ -1,0 +1,95 @@
+@import "../../vars.css";
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+   
+}
+.contact{
+    margin-top: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.title{
+    color: var(--color-text);
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 1.75px;
+    text-transform: uppercase;
+
+}
+h2{
+    
+    position:relative;
+  }
+h2:after{
+    content:"";
+     position:absolute;
+     border: 2px solid var(--color-secondary);
+     width:75px;
+     bottom:-5px;
+     left:0px;
+  }
+
+.form {
+    background-color: var(--color-secondary);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    align-items: center;
+    justify-content: center;
+}
+
+.lab {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: aliceblue;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 18px;
+    
+    
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+.notification {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
