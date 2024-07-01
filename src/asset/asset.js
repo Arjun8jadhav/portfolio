@@ -7,6 +7,7 @@ import cpu_icon from './image 3.png';
 import dr_icon from './image 4.png';
 
 
+
 export const assets = {
     menu_icon,
     cross,
@@ -15,5 +16,6 @@ export const assets = {
     arrow_icon,
     cpu_icon,
     dr_icon,
+  
 
 }
