@@ -3,7 +3,7 @@ import { assets } from '../../asset/asset';
 import { useState } from 'react';
 
 const Navbar = () => {
-    const [menuopen, setMenuOpen] = useState(false);
+    const [menuopen, setMenuOpen] = useState(true);
     return (
         <nav className="navbar">
             <h2 className='title'>Portfolio</h2>
