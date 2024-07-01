@@ -61,11 +61,6 @@ export const Experience = () => {
                         <p>Top 2% Problem solver </p>
                         <a href='https://www.naukri.com/code360/profile/arjun_jadhav'>View</a>
                     </li>
-                    <li className={Style.account} >
-                        <img src={Skill.git} />
-                        <p>Projects & repositaries </p>
-                        <a href='https://github.com/Arjun8jadhav'>View</a>
-                    </li>
 
                 </ul>
             </div>
