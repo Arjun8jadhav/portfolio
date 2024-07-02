@@ -33,6 +33,10 @@
     min-width: 250px;
    
 }
+.project:hover{
+    transition: 0.5s  all ease-in-out;
+    scale: 1.01;
+}
 .project img{
     width: 200px;
     height: 200px;

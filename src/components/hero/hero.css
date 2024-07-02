@@ -32,7 +32,7 @@
 }
 .description{
   font-size: 28px;
-  font-family: var(--font-roboto);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   margin-bottom: 52px;
 }
 .contactBtn{
@@ -42,10 +42,10 @@
   border-radius: 26px;
   border: 1px solid var(--color-secondary);
   font-size: 24px;
-  font-weight: 200;
+  font-weight: 300;
   padding: 16px 32px;
   box-shadow: 0 0 4px 0 rgba(0,0,0,0.25);
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .contactBtn:hover{
   transition: 0.5s all ease;
@@ -124,6 +124,7 @@
       }
       .title-head{
         font-size: 40px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
       }
       .content{
         text-align: center;
