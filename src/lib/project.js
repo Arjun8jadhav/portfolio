@@ -5,7 +5,7 @@ export const projectdata=[
         id: 1,
         Title : "Google-Gemini Clone",
         Language: [
-            "ReactJS","CSS","Gemini-API"
+            "ReactJS","CSS","Gemini-API","Context-API"
         ],
         img: photos.gem,
         code : "https://github.com/Arjun8jadhav/Gemini_clone",
@@ -54,6 +54,17 @@ export const projectdata=[
     ,
     {
         id: 5,
+        Title : "Weather forecast",
+        Language: [
+            "ReactJS", "Material-UI" , "ChartJS" , "Weather-API"
+        ],
+        img: photos.weather,
+        code : "https://github.com/Arjun8jadhav/Weather_forecast",
+        live: "https://weather-forecast-seven-sigma.vercel.app/"
+
+    },
+    {
+        id: 5,
         Title : "E-commerce Platform",
         Language: [
             "HTML","CSS","JAVASCRIPT"
@@ -64,5 +75,6 @@ export const projectdata=[
 
     }
     ,
+    
     
 ]
