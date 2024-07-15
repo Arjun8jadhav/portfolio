@@ -67,8 +67,12 @@ textarea {
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
+    height: 40px;
+    
 }
-
+.mess{
+    height: 100px;
+}
 input[type="submit"] {
     background-color: #4CAF50;
     color: white;
@@ -78,6 +82,7 @@ input[type="submit"] {
     cursor: pointer;
     transition: background-color 0.3s ease;
     font-size: 18px;
+    width: 100%;
     
     
 }

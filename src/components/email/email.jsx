@@ -37,12 +37,12 @@ export const Email = () => {
             <form className={styles.form} ref={form} onSubmit={sendEmail}>
                 <div className={styles.lab}>
                 <label>Name</label>
-                <input type="text" name="user_name" />
+                <input type="text" name="user_name" required />
                 </div>
                 <div className={styles.lab}><label>Email</label>
-                <input type="email" name="user_email" /></div>
+                <input type="email" name="user_email" required /></div>
                 <div className={styles.lab}><label>Message</label>
-                <textarea name="message" /></div>
+                <textarea className={styles.mess} name="message"  required/></div>
                 <input type="submit" value="Send" />
             </form>
            

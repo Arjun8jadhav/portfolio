@@ -4,6 +4,7 @@ import { useState } from 'react';
 
 const Navbar = () => {
     const [menuopen, setMenuOpen] = useState(true);
+
     return (
         <nav className="navbar">
             <h2 className='title'>Portfolio</h2>
