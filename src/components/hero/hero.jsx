@@ -13,7 +13,7 @@ const Hero = () => {
                     <a className='contactBtn' target='_blank' href='https://drive.google.com/file/d/1Trzv-6CH-QS-cag4cv9aLlRcqQJ0CvBX/view?usp=sharing'  >Resume</a>
                     <div className='social'>
                     <a href="https://www.linkedin.com/in/arjun-jadhav-661908244/"><img  src={ids.linkedin} alt="" /></a>
-                    <a href="https://x.com/ARJUN_96K"><img  src={ids.x} alt="" /></a>
+                    <a href="https://x.com/Devloper_Arjun"><img  src={ids.x} alt="" /></a>
                     <a href="https://github.com/Arjun8jadhav"><img  src={ids.git} alt="" /></a>
                     </div>
                 </div>

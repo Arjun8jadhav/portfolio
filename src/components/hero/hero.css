@@ -58,6 +58,8 @@
 }
 .ids img{
   width: 35px;
+
+ 
 }
 .ids img:hover{
   transition: 1s all ease;
