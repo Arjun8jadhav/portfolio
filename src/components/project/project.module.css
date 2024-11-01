@@ -25,8 +25,8 @@
     padding: 20px;
     border-radius: 20px;
     color: var(--color-text);
-    flex: 1 1 250px; /* Allow projects to grow and shrink */
     max-width: 250px;
+    height: 100%;
     align-items: center;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
