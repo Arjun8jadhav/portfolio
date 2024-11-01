@@ -5,6 +5,7 @@ import aitool from './aitool.jpg';
 import rox from './rox.jpg';
 import ecom from './E-commerce.jpg'
 import weather from './Weather.jpg'
+import BugLogix from './BugLogix.jpg'
 export const photos={
     pro,
     gem,
@@ -12,6 +13,7 @@ export const photos={
     aitool,
     rox,
     ecom,
-    weather
+    weather,
+    BugLogix
 
 }

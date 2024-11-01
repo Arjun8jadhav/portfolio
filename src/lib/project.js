@@ -2,6 +2,16 @@ import { photos } from "../asset/project/project";
 
 export const projectdata=[
     {
+        id: "new",
+        Title : "BugLogix",
+        Language: [
+            "NextJS","Typescript","Express","MongoDB","SCSS"
+        ],
+        img: photos.BugLogix,
+        code : "https://github.com/Arjun8jadhav/Gemini_clone",
+        live: "https://gemini-clone-jade.vercel.app/"
+    },
+    {
         id: 1,
         Title : "Google-Gemini Clone",
         Language: [
@@ -19,7 +29,7 @@ export const projectdata=[
         id: 2,
         Title : "Real-Estate App",
         Language: [
-            "ReactJS","NodeJS","SCSS","Prisma"
+            "ReactJS","NodeJS","SCSS","Prisma","JWT"
         ],
         img: photos.rent,
         code : "https://github.com/Arjun8jadhav/rentalsite",
